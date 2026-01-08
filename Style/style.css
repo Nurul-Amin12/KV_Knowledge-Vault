@@ -14,9 +14,15 @@ body {
     padding: 0 auto;
 }
 
+.common {
+    width: 1600px;
+
+}
+
 header {
     padding: 16px 120px;
     background-color: white;
+    opacity: .9;
 }
 
 nav {
@@ -62,3 +68,134 @@ button {
     border: 0;
 }
 
+
+.banner {
+    border: 1px solid;
+    height: 674px;
+    background-image: url(../assets/hero-bg.png);
+    background-size: contain;
+    opacity: .9;
+}
+
+.hero-bg {
+    width: 1600px;
+    height: 674px;
+}
+
+.banner-box {
+    width: 1360px;
+    height: 379px;
+    position: absolute;
+    color: white;
+    margin: 110px 120px 134px 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.early-access {
+    width: 229px;
+    height: 35px;
+    border-radius: 1000px;
+    padding: 8px 12px 8px 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.circle1 {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #b0ccbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle2 {
+    width: 12px;
+    height: 12px;
+    border-radius: 8px;
+    background-color: #94bfa6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle3 {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #308a55;
+}
+
+.thinking-heading {
+    width: 790px;
+    height: 168px;
+
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 16px;
+}
+.banner-box h2 span {
+    color: #30B868;
+}
+
+.thinking-discussion {
+    /* width: 770px;
+    height: 60px; */
+    font-style:regular;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 32px;
+}
+.thinking-discussion p {
+    margin-bottom: 16px;
+
+}
+
+.thinking-button {
+    width: 465px;
+    height: 52px;
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.thinking-button .tb {
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 12px 16px 12px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+}
+
+.thinking-button .start {
+    width: 251px;
+    background-color: #30B868;
+}
+.thinking-button .work {
+    width: 198px;
+    background-color:transparent;
+    border: 1px solid white;
+}
+
+
+
+
+.tablet {
+    height: 448px;
+}
