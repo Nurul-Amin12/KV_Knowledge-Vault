@@ -286,10 +286,54 @@ button {
 
 /* Brain Structure */
 
+.brain {
+    background: rgba(255, 255, 255, 1);
+    width: 1600px;
+    padding: 120px;
+}
+
 .brain-structure {
     width: 1360px;
     height: 600px;
-    border: 1px solid green;
-    margin: 120px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.solution {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.brain-structure p {
+    font-weight: 600;
+}
+
+.solution .the-solution {
+    color: #30B868;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+}
+
+.solution h2 {
+    font-size: 48px;
+    font-weight: 700px;
+    text-transform: capitalize;
+    color: #001931;
+}
+
+.solution .discription {
+    color: #627382;
+    font-weight: 400;
+    padding: 16px 0 40px 0;
+}
+
+
+.knowledge {
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
